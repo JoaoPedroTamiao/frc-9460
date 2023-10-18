@@ -35,11 +35,17 @@ body{
 
 .tudo{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-direction: row;
-    margin-top: 2%;
+    margin-top: 2px;
+    flex-wrap: wrap;
     
 }
 
-
-
+.carousel-inner{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
